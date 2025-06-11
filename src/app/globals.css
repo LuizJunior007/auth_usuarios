@@ -1,42 +1,38 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "bootstrap-icons/font/bootstrap-icons";
+
+body, html{
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body{
+  background-color: #f9f9f9;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.form-control{
+  padding: 10px;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.btn{
+  padding: 10px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.login-form{
+  padding: 15px;
+  width: 25rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+label{
+  margin-top: 5px;
+}
+
+h1{
+  color: #202020;
+  font-size: 1.8em;
 }
