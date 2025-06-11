@@ -1,7 +1,5 @@
 "use client";
 
-import { authOptions } from "@/app/api/auth/auth/route";
-import { getServerSession } from "next-auth";
 import Link from "next/link";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Logout from "../Logout";

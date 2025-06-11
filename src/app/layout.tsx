@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Appbar from "@/components/Appbar";
 import { appName } from "@/config";
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+import { authOptions } from "./lib/authOptions";
 import AuthProvider from "./providers/Session";
 import "./globals.css";
 import Footer from "@/components/Footer";
